@@ -1,0 +1,40 @@
+<variant
+    name="release"
+    package="com.example.slightly_tech"
+    minSdkVersion="19"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="/Users/poynthq1/Documents/Dev/slightly_tech/build/app/intermediates/merged_manifest/release/AndroidManifest.xml"
+    proguardFiles="/Users/poynthq1/Documents/Dev/slightly_tech/build/app/intermediates/default_proguard_files/global/proguard-android.txt-7.3.0:/Users/poynthq1/development/flutter/packages/flutter_tools/gradle/flutter_proguard_rules.pro:proguard-rules.pro"
+    partialResultsDir="/Users/poynthq1/Documents/Dev/slightly_tech/build/app/intermediates/lint_vital_partial_results/release/out"
+    desugaredMethodsFiles="/Users/poynthq1/.gradle/caches/transforms-3/bd65921de16db1d78bd37241e498ab28/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifest="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/main/kotlin"
+        resDirectories="src/main/res"
+        assetsDirectories="src/main/assets"/>
+    <sourceProvider
+        manifest="src/release/AndroidManifest.xml"
+        javaDirectories="src/release/java:src/release/kotlin"
+        resDirectories="src/release/res"
+        assetsDirectories="src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <mainArtifact
+      classOutputs="/Users/poynthq1/Documents/Dev/slightly_tech/build/app/intermediates/javac/release/classes:/Users/poynthq1/Documents/Dev/slightly_tech/build/app/tmp/kotlin-classes/release:/Users/poynthq1/Documents/Dev/slightly_tech/build/app/kotlinToolingMetadata:/Users/poynthq1/Documents/Dev/slightly_tech/build/app/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar"
+      applicationId="com.example.slightly_tech"
+      generatedSourceFolders="/Users/poynthq1/Documents/Dev/slightly_tech/build/app/generated/ap_generated_sources/release/out:/Users/poynthq1/Documents/Dev/slightly_tech/build/app/generated/aidl_source_output_dir/release/out:/Users/poynthq1/Documents/Dev/slightly_tech/build/app/generated/source/buildConfig/release:/Users/poynthq1/Documents/Dev/slightly_tech/build/app/generated/renderscript_source_output_dir/release/out"
+      generatedResourceFolders="/Users/poynthq1/Documents/Dev/slightly_tech/build/app/generated/res/rs/release:/Users/poynthq1/Documents/Dev/slightly_tech/build/app/generated/res/resValues/release">
+  </mainArtifact>
+</variant>
